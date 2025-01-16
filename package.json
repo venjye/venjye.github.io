@@ -26,8 +26,9 @@
         "string_decoder": "^1.3.0",
         "url": "^0.11.4",
         "util": "^0.12.5",
-        "webpack": "^5.x.x",
-        "vm-browserify": "^1.1.2"
-        
+        "vm-browserify": "^1.1.2",
+        "webpack-cli": "^6.0.1",
+        "webpack": "^5.x.x"
     }
+    
 }
