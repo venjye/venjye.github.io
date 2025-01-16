@@ -14,6 +14,7 @@ module.exports = {
   ],
   resolve: {
     fallback: {
+    process: require.resolve("process/browser"),
       buffer: require.resolve('buffer/'),
       async_hooks: false,
       fs: false,
