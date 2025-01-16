@@ -1,0 +1,9 @@
+
+
+<article class="post-detail">
+  <h2><%= post.title %></h2>
+  <p class="meta">发布日期：<%= new Date(post.date).toLocaleDateString() %></p>
+  <div class="content">
+    <%- htmlContent %> 
+  </div>
+</article>

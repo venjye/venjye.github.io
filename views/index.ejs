@@ -1,0 +1,18 @@
+
+<section class="intro">
+  <h2>我是谁？</h2>
+  <p>不重要，这里只是用来分享学习与生活。</p>
+</section>
+
+<section class="latest-posts">
+  <h2>最新文章</h2>
+  <ul>
+    <% latestPosts.forEach(post => { %>
+      <li>
+        <h3><a href="/posts/<%= post.slug %>"><%= post.title %></a></h3>
+        <p class="meta">发布日期：<%= new Date(post.date).toLocaleDateString() %></p>
+        <p><%= post.description %></p>
+      </li>
+    <% }) %>
+  </ul>
+</section>
